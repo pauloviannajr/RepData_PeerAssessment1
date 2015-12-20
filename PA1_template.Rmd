@@ -62,7 +62,7 @@ stepsmean <- mean(totalstepsperday,na.rm = TRUE)
 stepsmedian <- median(totalstepsperday,na.rm = TRUE)
 ```
 
-The mean number of steps per day is `r stepsmean` and the median is `r stepsmedian`
+The **mean** number of steps per day is **`r stepsmean`** and the **median** is **`r stepsmedian`**
 
 
 ## What is the average daily activity pattern?
@@ -132,7 +132,7 @@ newstepsmean <- mean(newtotalstepsperday,na.rm = TRUE)
 newstepsmedian <- median(newtotalstepsperday,na.rm = TRUE)
 ```
 
-The new mean number of steps per day is `r newstepsmean` and the new median is `r newstepsmedian`
+The new **mean** number of steps per day is **`r newstepsmean`** and the new **median** is **`r newstepsmedian`**
 
 The differences from these estimates and those of the fisrt part of the assignment are shown below. Only the median has slightly changed.
 

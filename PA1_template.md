@@ -66,7 +66,7 @@ totalstepsperday <- tapply(stepsdata$steps,stepsdata$date,sum)
 
 
 ```r
-hist(totalstepsperday, main ="Histogram of the Total Numer of Steps per Day", xlab = "Total Number of Steps per Day", col = "orange")
+hist(totalstepsperday, main ="Histogram of the Total Number of Steps per Day", xlab = "Total Number of Steps per Day", col = "orange")
 ```
 
 ![](PA1_template_files/figure-html/histtotalsteps-1.png) 
@@ -79,7 +79,7 @@ stepsmean <- mean(totalstepsperday,na.rm = TRUE)
 stepsmedian <- median(totalstepsperday,na.rm = TRUE)
 ```
 
-The mean number of steps per day is 1.0766189\times 10^{4} and the median is 10765
+The **mean** number of steps per day is **1.0766189\times 10^{4}** and the **median** is **10765**
 
 
 ## What is the average daily activity pattern?
@@ -184,7 +184,7 @@ newstepsmean <- mean(newtotalstepsperday,na.rm = TRUE)
 newstepsmedian <- median(newtotalstepsperday,na.rm = TRUE)
 ```
 
-The new mean number of steps per day is 1.0766189\times 10^{4} and the new median is 1.0766189\times 10^{4}
+The new **mean** number of steps per day is **1.0766189\times 10^{4}** and the new **median** is **1.0766189\times 10^{4}**
 
 The differences from these estimates and those of the fisrt part of the assignment are shown below. Only the median has slightly changed.
 
