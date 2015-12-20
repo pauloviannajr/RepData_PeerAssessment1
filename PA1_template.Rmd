@@ -52,7 +52,7 @@ totalstepsperday <- tapply(stepsdata$steps,stepsdata$date,sum)
 ### Histogram of the total number of steps per day
 
 ```{r histtotalsteps}
-hist(totalstepsperday, main ="Histogram of the Total Numer of Steps per Day", xlab = "Total Number of Steps per Day", col = "orange")
+hist(totalstepsperday, main ="Histogram of the Total Number of Steps per Day", xlab = "Total Number of Steps per Day", col = "orange")
 ```
 
 ### Mean and Median
@@ -122,7 +122,7 @@ The histogram after filling in missing values is
 
 ```{r newhisttotalsteps}
 newtotalstepsperday <- tapply(newdataframe$steps,newdataframe$date,sum)
-hist(newtotalstepsperday, main ="Histogram after filling in missing valures", xlab = "Total Number of Steps per Day", col = "orange")
+hist(newtotalstepsperday, main ="Histogram after filling in missing values", xlab = "Total Number of Steps per Day", col = "orange")
 ```
 
 ### Mean and Median after filling in missing values

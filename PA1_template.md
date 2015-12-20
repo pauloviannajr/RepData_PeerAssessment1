@@ -171,7 +171,7 @@ The histogram after filling in missing values is
 
 ```r
 newtotalstepsperday <- tapply(newdataframe$steps,newdataframe$date,sum)
-hist(newtotalstepsperday, main ="Histogram after filling in missing valures", xlab = "Total Number of Steps per Day", col = "orange")
+hist(newtotalstepsperday, main ="Histogram after filling in missing values", xlab = "Total Number of Steps per Day", col = "orange")
 ```
 
 ![](PA1_template_files/figure-html/newhisttotalsteps-1.png) 
